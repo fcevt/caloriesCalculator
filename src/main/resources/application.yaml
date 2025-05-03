@@ -1,0 +1,9 @@
+spring:
+  config:
+    import: "classpath:calc/products.yaml"
+  output:
+    ansi:
+      enabled: always
+  main:
+    log-startup-info: false
+    banner-mode: console

@@ -1,0 +1,30 @@
+calories-calculator:
+  products:
+    - name: "Филе куриной грудки"
+      protein: 20
+      fats: 2
+      carbohydrates: 0
+    - name: "Филе бедра"
+      protein: 18
+      fats: 8
+      carbohydrates: 0
+    - name: "Помидоры"
+      protein: 0.9
+      fats: 0.2
+      carbohydrates: 3.9
+    - name: "Огурцы"
+      protein: 0.8
+      fats: 0.1
+      carbohydrates: 2.8
+    - name: "Лук репчатый"
+      protein: 1.4
+      fats: 0.2
+      carbohydrates: 8.2
+    - name: "Болгарский перец"
+      protein: 1.3
+      fats: 0.1
+      carbohydrates: 5.3
+    - name: "Яйцо"
+      protein: 12.7
+      fats: 11.5
+      carbohydrates: 0.7
