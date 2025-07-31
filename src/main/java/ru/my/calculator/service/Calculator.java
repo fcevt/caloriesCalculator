@@ -79,12 +79,13 @@ public class Calculator {
         Product product = products.stream()
                 .filter(product1 -> product1.getName().equals(name))
                 .findFirst().get();
-        product.setWeight(weight);
-        product.setProtein(product.getProtein() * weight / 100);
-        product.setFats(product.getFats() * weight / 100);
-        product.setCarbohydrates(product.getCarbohydrates() * weight / 100);
-        product.setCalories(productCaloriesCounter(product.getProtein(), product.getFats(), product.getCarbohydrates()));
-        productList.add(product);
+        Product product2 = new Product();
+        product2.setWeight(weight);
+        product2.setProtein(product.getProtein() * weight / 100);
+        product2.setFats(product.getFats() * weight / 100);
+        product2.setCarbohydrates(product.getCarbohydrates() * weight / 100);
+        product2.setCalories(productCaloriesCounter(product2.getProtein(), product2.getFats(), product2.getCarbohydrates()));
+        productList.add(product2);
     }
 
     public FinishedDish calculateValueOf100GramsOfReadyMadeDish(double totalWeight) {

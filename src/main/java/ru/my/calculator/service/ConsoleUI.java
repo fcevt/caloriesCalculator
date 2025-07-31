@@ -104,7 +104,4 @@ public class ConsoleUI {
         calculator.cleanProductList();
         System.out.println("Можно считать следующее блюдо");
     }
-
-
-
 }
